@@ -1,0 +1,17 @@
+Hyperparameter Search:
+architecture	batch_size	epochs	optimizer	lr	mean_val_loss
+0	100	10	<keras.src.optimizers.adam.Adam object at 0x7e1ea4259f70> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.053606390953063965
+1	100	10	<keras.src.optimizers.adam.Adam object at 0x7e1e9ce57620> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.06431620046496392
+2	100	10	<keras.src.optimizers.adam.Adam object at 0x7e1e9c867a10> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.05477622523903847
+3	100	10	<keras.src.optimizers.adam.Adam object at 0x7e1e9dd3c6e0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.046035242080688474
+4	100	10	<keras.src.optimizers.adam.Adam object at 0x79de121f2f00> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.04466905035078526
+5	100	10	<keras.src.optimizers.adam.Adam object at 0x765826cb5ca0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.0483463242650032
+6	100	10	<keras.src.optimizers.adam.Adam object at 0x765827f1f6e0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=0.0010000000474974513>	0.001	0.04282573163509369
+6	128	10	<keras.src.optimizers.adam.Adam object at 0x74990ecabe30> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.07402265965938568
+6	256	10	<keras.src.optimizers.adam.Adam object at 0x74990cf2e8d0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.08201401680707932
+6	256	10	<keras.src.optimizers.adam.Adam object at 0x7499242feff0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.11614099591970443
+6	256	10	<keras.src.optimizers.adam.Adam object at 0x74990d83efc0> <Variable path=adam/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.09044686630368233
+6	256	10	<keras.src.optimizers.sgd.SGD object at 0x749934370b60> <Variable path=SGD/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.10340838879346848
+6	256	10	<keras.src.optimizers.sgd.SGD object at 0x74990d432840> <Variable path=SGD/learning_rate, shape=(), dtype=float32, value=9.999999747378752e-05>	0.0001	0.13289680406451226
+6	256	10	<keras.src.optimizers.sgd.SGD object at 0x7499242fd8e0> <Variable path=SGD/learning_rate, shape=(), dtype=float32, value=0.0003000000142492354>	0.0003	0.10303873643279075
+6	256	10	<keras.src.optimizers.sgd.SGD object at 0x7498ec71ab40> <Variable path=SGD/learning_rate, shape=(), dtype=float32, value=4.999999873689376e-05>	5e-05	0.13385168761014937

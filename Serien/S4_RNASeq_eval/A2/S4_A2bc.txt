@@ -1,0 +1,49 @@
+kallisto index -t 4 -i kallistoIdx.idx all.cdna                  
+
+[build] loading fasta file all.cdna
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 43 target sequences
+[build] warning: replaced 71 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Finished
+CompactedDBG::build(): Estimated number of k-mers occurring at least once: 71340179
+CompactedDBG::build(): Estimated number of minimizer occurring at least once: 17171113
+CompactedDBG::filter(): Processed 111325895 k-mers in 66338 reads
+CompactedDBG::filter(): Found 71369053 unique k-mers
+CompactedDBG::filter(): Number of blocks in Bloom filter is 487679
+CompactedDBG::construct(): Extract approximate unitigs (1/2)
+CompactedDBG::construct(): Extract approximate unitigs (2/2)
+CompactedDBG::construct(): Closed all input files
+
+CompactedDBG::construct(): Splitting unitigs (1/2)
+
+CompactedDBG::construct(): Splitting unitigs (2/2)
+CompactedDBG::construct(): Before split: 1025402 unitigs
+CompactedDBG::construct(): After split (1/1): 1025402 unitigs
+CompactedDBG::construct(): Unitigs split: 1403
+CompactedDBG::construct(): Unitigs deleted: 0
+
+CompactedDBG::construct(): Joining unitigs
+CompactedDBG::construct(): After join: 989959 unitigs
+CompactedDBG::construct(): Joined 35777 unitigs
+[build] building MPHF
+[build] creating equivalence classes ... 
+[build] target de Bruijn graph has k-mer length 31 and minimizer length 23
+[build] target de Bruijn graph has 989959 contigs and contains 71431464 k-mers 
+
+
+kallisto quant --single -l 200 -s 40 -o . -i kallisto_idx.idx SRR1952808.fastq.gz
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 40
+[index] k-mer length: 31
+[index] number of targets: 66,338
+[index] number of k-mers: 71,431,464
+[quant] running in single-end mode
+[quant] will process file 1: SRR1952808.fastq.gz
+[progress] 25M reads processed (87.3% mapped)              done
+[quant] processed 26,656,102 reads, 23,270,363 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,080 rounds

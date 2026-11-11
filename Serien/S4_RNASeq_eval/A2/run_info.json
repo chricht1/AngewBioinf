@@ -1,0 +1,14 @@
+{
+	"n_targets": 66338,
+	"n_bootstraps": 0,
+	"n_processed": 26656102,
+	"n_pseudoaligned": 23270363,
+	"n_unique": 12900647,
+	"p_pseudoaligned": 87.3,
+	"p_unique": 48.4,
+	"kallisto_version": "0.52.0",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Wed May 20 20:58:39 2026",
+	"call": "kallisto quant --single -l 200 -s 40 -o Kallisto -i Kallisto/kallistoIdx.idx SRR1952808.fastq.gz"
+}

@@ -1,0 +1,27 @@
+{
+    "n_estimators: 50": {
+        "max_depth: 5": 0.9895505688016207,
+        "max_depth: 10": 0.9894765466729002,
+        "max_depth: 20": 0.9894765466729002,
+        "max_depth: None": 0.9894765466729002
+    },
+    "n_estimators: 100": {
+        "max_depth: 5": 0.9917822450781777,
+        "max_depth: 10": 0.9897639603137499,
+        "max_depth: 20": 0.9897639603137499,
+        "max_depth: None": 0.9897639603137499
+    },
+    "n_estimators: 200": {
+        "max_depth: 5": 0.9927890499194847,
+        "max_depth: 10": 0.9924306269804166,
+        "max_depth: 20": 0.9924306269804166,
+        "max_depth: None": 0.9924306269804166
+    },
+    "n_estimators: 300": {
+        "max_depth: 5": 0.9929324190951119,
+        "max_depth: 10": 0.9928591761466936,
+        "max_depth: 20": 0.9928591761466936,
+        "max_depth: None": 0.9928591761466936
+    },
+    "cv_result": "highest score: 0.9929324190951119 at index 12\nfor n_estimators 300 and max_depth 5"
+}

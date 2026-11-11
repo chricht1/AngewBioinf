@@ -1,0 +1,12 @@
+Record-ID: CP002687.1
+There are 6286 spliced CDS out of 7426 CDS.
+Exon count distribution per CDS:
+(array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+       18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+       35, 37, 38, 39, 65, 66]), array([1140,  949,  837,  734,  641,  540,  542,  397,  358,  253,  164,
+        149,  130,  124,   77,   66,   47,   50,   30,   31,   33,   14,
+         26,   22,   21,    4,    7,    1,    4,    5,    6,    3,    1,
+          6,    4,    2,    3,    2,    2,    1]))
+Total gene nucleotides: 15514547
+Total exon (CDS) nucleotides: 9820991, fraction of total gene nucleotides: 0.6330182247667302 
+Total intron nucleotides: 5693556, fraction of total gene nucleotides: 0.3669817752332698

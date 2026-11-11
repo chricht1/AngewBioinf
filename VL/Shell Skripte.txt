@@ -1,0 +1,107 @@
+Shell Skripte:
+
+sind abfolge von Anweisungen wie man sie in CMD angeben würde
+
+versch. "Shell-Sprachen":
+sh
+zsh
+t
+
+shebang-Zeile:
+#!/bin/bash
+
+Ausführung:
+	- stdmäßig Pfad zur Datei
+
+an welches Programm soll skript weitergegeben werden / mit welchem ausgeführt werden 
+
+Eigenschaften Bash:
+- keine Typisierung!
+
+
+Spezielle Variablen:
+
+
+Warum geschweifte Klammern bei Arrayzugriff?
+el=${arr[i]}
+
+
+less gibt Dateiinhalt aus, 
+	- wenn manuell dann mit 'q' quitten
+	- kann große Dateien öffnen, da nur kleinen Teil lädt
+
+
+Nützl. Befehle
+	- manche Dateien muss muss man erst in Tape-Archiv umwandeln bevor 	man gezippen kann -> tar.gz
+	- Warum?
+
+
+
+Pipen
+'>' : Stdout OVERRIDE '>>' KEIN OVERRIDE
+'2>' : Stderr
+
+'<' wie 'cat' Eingabe aus Datei holen?
+
+
+Shell Skripte:
+
+sind abfolge von Anweisungen wie man sie in CMD angeben würde
+
+versch. "Shell-Sprachen":
+sh
+zsh
+t
+
+shebang-Zeile:
+#!/bin/bash
+
+Ausführung:
+	- stdmäßig Pfad zur Datei
+
+an welches Programm soll skript weitergegeben werden / mit welchem ausgeführt werden 
+
+Eigenschaften Bash:
+- keine Typisierung!
+
+
+Spezielle Variablen:
+
+
+Warum geschweifte Klammern bei Arrayzugriff?
+el=${arr[i]}
+
+
+less gibt Dateiinhalt aus, 
+	- wenn manuell dann mit 'q' quitten
+	- kann große Dateien öffnen, da nur kleinen Teil lädt
+
+
+Nützl. Befehle
+	- manche Dateien muss muss man erst in Tape-Archiv umwandeln bevor 	man gezippen kann -> tar.gz
+	- Warum?
+
+
+
+Pipen
+'>' : Stdout OVERRIDE '>>' KEIN OVERRIDE
+'2>' : Stderr
+
+'<' wie 'cat' Eingabe aus Datei holen?
+
+
+#### Bemerkungen:
+Commands, um Speichernutzung anzuzeigen:
+- df -h zeigt Laufwerke
+- du -h zeigt Directories
+
+
+Conda/Bioconda:
+- Problem: Paketzahl gewachsen
+	- solver der Paketabhängigkeiten berücksichtigt u. dessen Versionen bestimmt
+		- solver wurde sehr langsam
+	-> Mamba solver entwickelt -> schneller
+	- soll inzwischen in Conda integriert sein?
+	conda-forge/miniforge Conda version, die Mambda nutzt -> mamba statt conda schreiben
+	 	-> Empfehlung von Jan
+	- installation z. B. bash skript mit "payload"

@@ -1,0 +1,41 @@
+VL1:
+indexieren über mehrere Indices mittels Vektor 
+
+- Vektor ist Basis-Datentyp in R (es gibt keine Skalare)
+
+
+VL2:
+neg. Indices: 
+	def. Indices, die NICHT selektiert werden sollen
+
+
+class() gibt Datentyp an
+
+Fkt. gibt immer letzte Anweisung in Scope zurück
+-> Grouping of Expressions (nützl. für Fkt. oder If-Else): 
+{expr1; expr2; ...}
+
+		
+R Factor Datentyp: 
+	- repr. Kategoriale Daten -> Set
+
+
+apply: 
+
+	wenn alle Ergebnisse Vektoren derselben Länge > 1, ist
+	Gesamtergebnis Matrix (spaltenweise)
+	
+	wenn Ergebnisse Vektoren verschiedener Länge sind, ist
+	Gesamtergebnis Liste
+	
+	weitere argumente übergebbar, die an anzuwendende funktion weitergereicht werden!
+		z. B: sapply(1:5, log, base=2)
+		
+	
+	
+Reguläre Ausdrücke:	
+	"^a" sagt aus, dass String mit a anfangen soll -> grep("^a", v)	
+	
+		
+tidyverse:
+	- datenstr. ist tibble (im Prinzip dataframe)

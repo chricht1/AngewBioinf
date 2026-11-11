@@ -1,0 +1,1 @@
+Lecture notes weekly exercises for graduate bioinformatics class "Angewandte Bioinformatik" offered by Martin-Luther-University Halle-Wittenberg in summer term 2026 done by Christian Mathias Richter.
